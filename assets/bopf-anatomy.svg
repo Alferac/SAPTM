@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-label="Анатомия бизнес-объекта BOPF">
+<title>Анатомия бизнес-объекта BOPF</title>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="600" rx="16" fill="#ffffff"/>
+<g font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif">
+<text x="30" y="42" font-size="24" fill="#1a202c" font-weight="700" text-anchor="start">Анатомия бизнес-объекта BOPF</text>
+<text x="30" y="66" font-size="14" fill="#4a5568" font-weight="normal" text-anchor="start">Вы описываете модель и пишете маленькие обработчики. Буфер, транзакции и вызовы берёт на себя фреймворк</text>
+<text x="30" y="104" font-size="12" fill="#718096" font-weight="700" text-anchor="start">ПОТРЕБИТЕЛИ</text>
+<rect x="30" y="118" width="200" height="50" rx="8" fill="#f7fafc" stroke="#a0aec0" stroke-width="1.2"/>
+<text x="130" y="148" font-size="13" fill="#2d3748" font-weight="600" text-anchor="middle">UI: FPM / FBI, Fiori</text>
+<line x1="232" y1="143" x2="266" y2="143" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="30" y="184" width="200" height="50" rx="8" fill="#f7fafc" stroke="#a0aec0" stroke-width="1.2"/>
+<text x="130" y="214" font-size="13" fill="#2d3748" font-weight="600" text-anchor="middle">Отчёты, фоновые задания</text>
+<line x1="232" y1="209" x2="266" y2="209" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="30" y="250" width="200" height="50" rx="8" fill="#f7fafc" stroke="#a0aec0" stroke-width="1.2"/>
+<text x="130" y="280" font-size="13" fill="#2d3748" font-weight="600" text-anchor="middle">Интерфейсы: SOA, IDoc</text>
+<line x1="232" y1="275" x2="266" y2="275" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="30" y="316" width="200" height="50" rx="8" fill="#f7fafc" stroke="#a0aec0" stroke-width="1.2"/>
+<text x="130" y="346" font-size="13" fill="#2d3748" font-weight="600" text-anchor="middle">Другие бизнес-объекты</text>
+<line x1="232" y1="341" x2="266" y2="341" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="270" y="112" width="130" height="266" rx="10" fill="#2b6cb0" stroke="none" stroke-width="1.5"/>
+<text x="335" y="150" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">Service</text>
+<text x="335" y="170" font-size="16" fill="#ffffff" font-weight="700" text-anchor="middle">Manager</text>
+<text x="335" y="190" font-size="12" fill="#d6e6f8" font-weight="normal" text-anchor="middle" font-style="italic">фасад BO</text>
+<text x="335" y="228" font-size="11" fill="#ffffff" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">query</text>
+<text x="335" y="256" font-size="11" fill="#ffffff" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">retrieve</text>
+<text x="335" y="284" font-size="11" fill="#ffffff" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">retrieve_by_assoc</text>
+<text x="335" y="312" font-size="11" fill="#ffffff" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">modify</text>
+<text x="335" y="340" font-size="11" fill="#ffffff" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">do_action</text>
+<line x1="402" y1="245" x2="426" y2="245" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<rect x="430" y="96" width="740" height="300" rx="12" fill="#f7fafc" stroke="#2d3748" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="450" y="122" font-size="15"><tspan font-weight="700" fill="#1a202c">Бизнес-объект</tspan><tspan dx="8" fill="#2d3748" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/TOR</tspan><tspan dx="8" fill="#718096" font-style="italic">модель</tspan></text>
+<rect x="450" y="138" width="290" height="58" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.6"/>
+<text x="464" y="162" font-size="15" fill="#2b6cb0" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">ROOT</text>
+<text x="464" y="184" font-size="12" fill="#4a5568" font-weight="normal" text-anchor="start">KEY · PARENT_KEY · ROOT_KEY + поля</text>
+<path d="M474,196 L474,234 L506,234" fill="none" stroke="#2b6cb0" stroke-width="1.4"/>
+<rect x="508" y="212" width="232" height="44" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="522" y="239" font-size="13"><tspan font-weight="700" fill="#2b6cb0" font-family="SFMono-Regular, Consolas, Menlo, monospace">ITEM_TR</tspan><tspan dx="8" fill="#4a5568">позиции</tspan></text>
+<path d="M474,196 L474,288 L506,288" fill="none" stroke="#2b6cb0" stroke-width="1.4"/>
+<rect x="508" y="266" width="232" height="44" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="522" y="293" font-size="13"><tspan font-weight="700" fill="#2b6cb0" font-family="SFMono-Regular, Consolas, Menlo, monospace">STOP</tspan><tspan dx="8" fill="#4a5568">точки маршрута</tspan></text>
+<path d="M474,196 L474,342 L506,342" fill="none" stroke="#2b6cb0" stroke-width="1.4"/>
+<rect x="508" y="320" width="232" height="44" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="522" y="347" font-size="13"><tspan font-weight="700" fill="#2b6cb0" font-family="SFMono-Regular, Consolas, Menlo, monospace">EXECUTION</tspan><tspan dx="8" fill="#4a5568">события</tspan></text>
+<text x="482" y="386" font-size="11.5" fill="#718096" font-weight="normal" text-anchor="start" font-style="italic">линии: ассоциации между узлами</text>
+<text x="770" y="150" font-size="12" fill="#718096" font-weight="700" text-anchor="start">НАВЕШАНО НА УЗЛЫ</text>
+<rect x="770" y="162" width="380" height="38" rx="8" fill="#ffffff" stroke="#2f855a" stroke-width="1.2"/>
+<circle cx="790" cy="181" r="11" fill="#2f855a"/>
+<text x="790" y="186" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">D</text>
+<text x="810" y="186" font-size="13"><tspan font-weight="700" fill="#2f855a">Determination</tspan><tspan dx="8" fill="#4a5568">вычисляет и меняет данные</tspan></text>
+<rect x="770" y="207" width="380" height="38" rx="8" fill="#ffffff" stroke="#c53030" stroke-width="1.2"/>
+<circle cx="790" cy="226" r="11" fill="#c53030"/>
+<text x="790" y="231" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">V</text>
+<text x="810" y="231" font-size="13"><tspan font-weight="700" fill="#c53030">Validation</tspan><tspan dx="8" fill="#4a5568">проверяет, может запретить</tspan></text>
+<rect x="770" y="252" width="380" height="38" rx="8" fill="#ffffff" stroke="#c05621" stroke-width="1.2"/>
+<circle cx="790" cy="271" r="11" fill="#c05621"/>
+<text x="790" y="276" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">A</text>
+<text x="810" y="276" font-size="13"><tspan font-weight="700" fill="#c05621">Action</tspan><tspan dx="8" fill="#4a5568">операция, вызывается извне</tspan></text>
+<rect x="770" y="297" width="380" height="38" rx="8" fill="#ffffff" stroke="#6b46c1" stroke-width="1.2"/>
+<circle cx="790" cy="316" r="11" fill="#6b46c1"/>
+<text x="790" y="321" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">Q</text>
+<text x="810" y="321" font-size="13"><tspan font-weight="700" fill="#6b46c1">Query</tspan><tspan dx="8" fill="#4a5568">поиск, возвращает ключи</tspan></text>
+<rect x="770" y="342" width="380" height="38" rx="8" fill="#ffffff" stroke="#b7791f" stroke-width="1.2"/>
+<circle cx="790" cy="361" r="11" fill="#b7791f"/>
+<text x="790" y="366" font-size="12" fill="#ffffff" font-weight="700" text-anchor="middle">K</text>
+<text x="810" y="366" font-size="13"><tspan font-weight="700" fill="#b7791f">Alternative key</tspan><tspan dx="8" fill="#4a5568">номер документа → GUID</tspan></text>
+<path d="M760,170 L752,170 L752,375 L760,375" fill="none" stroke="#a0aec0" stroke-width="1.4"/>
+<line x1="752" y1="272" x2="744" y2="272" stroke="#a0aec0" stroke-width="1.4" marker-end="url(#arr)"/>
+<text x="30" y="432" font-size="12" fill="#718096" font-weight="700" text-anchor="start">РАНТАЙМ</text>
+<rect x="30" y="444" width="330" height="62" rx="10" fill="#edf2f7" stroke="#4a5568" stroke-width="1.2"/>
+<text x="195" y="470" font-size="15" fill="#1a202c" font-weight="700" text-anchor="middle">Transaction Manager</text>
+<text x="195" y="492" font-size="12.5" fill="#2d3748" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">SAVE  ·  CLEANUP</text>
+<rect x="430" y="444" width="330" height="62" rx="10" fill="#fffbea" stroke="#b7791f" stroke-width="1.2"/>
+<text x="595" y="470" font-size="15" fill="#1a202c" font-weight="700" text-anchor="middle">Буфер BO</text>
+<text x="595" y="492" font-size="12.5" fill="#4a5568" font-weight="normal" text-anchor="middle">изменения в памяти до сохранения</text>
+<line x1="362" y1="475" x2="426" y2="475" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<line x1="595" y1="398" x2="595" y2="440" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="603" y="424" font-size="11.5" fill="#718096" font-weight="normal" text-anchor="start" font-style="italic">MODIFY пишет сюда</text>
+<path d="M905,458 a130.0,10 0 0,0 260,0 v44 a130.0,10 0 0,1 -260,0 z" fill="#edf2f7" stroke="#4a5568" stroke-width="1.2"/>
+<ellipse cx="1035.0" cy="458" rx="130.0" ry="10" fill="#f7fafc" stroke="#4a5568" stroke-width="1.2"/>
+<text x="1035.0" y="488" font-size="14" fill="#1a202c" font-weight="700" text-anchor="middle">Таблицы БД</text>
+<text x="1035.0" y="506" font-size="12" fill="#2d3748" font-weight="normal" text-anchor="middle" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/D_TOR*</text>
+<line x1="762" y1="475" x2="900" y2="475" stroke="#4a5568" stroke-width="1.6" marker-end="url(#arr)"/>
+<text x="830" y="467" font-size="11.5" fill="#718096" font-weight="normal" text-anchor="middle" font-style="italic">при SAVE</text>
+<rect x="30" y="534" width="1140" height="40" rx="8" fill="#ebf4ff" stroke="#2b6cb0" stroke-width="1"/>
+<text x="46" y="559" font-size="13.5"><tspan font-weight="700" fill="#1a202c">Интерфейс констант</tspan><tspan dx="10" fill="#2d3748" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/IF_TOR_C</tspan><tspan dx="10" fill="#2d3748">переводит имена узлов, связей, действий и запросов в GUID. Без него код BOPF не пишется</tspan></text>
+</g>
+</svg>

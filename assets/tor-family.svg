@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-label="Семейства бизнес-объектов TM">
+<title>Семейства бизнес-объектов TM</title>
+<defs>
+  <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+    <path d="M0,0 L10,5 L0,10 z" fill="#4a5568"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="1200" height="480" rx="16" fill="#ffffff"/>
+<g font-family="Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif">
+<text x="30" y="42" font-size="24" fill="#1a202c" font-weight="700" text-anchor="start">Семейства бизнес-объектов TM</text>
+<text x="30" y="66" font-size="14" fill="#4a5568" font-weight="normal" text-anchor="start">Двенадцать документов укладываются в четыре основных бизнес-объекта</text>
+<rect x="30" y="90" width="330" height="300" rx="12" fill="#ebf4ff" stroke="#2b6cb0" stroke-width="1.5"/>
+<text x="48" y="120" font-size="17" fill="#2b6cb0" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/TRQ</text>
+<text x="48" y="142" font-size="13" fill="#4a5568" font-weight="normal" text-anchor="start" font-style="italic">Спрос: что везти</text>
+<rect x="48" y="158" width="294" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="62" y="183" font-size="13.5"><tspan font-weight="700" fill="#2b6cb0">FWQ</tspan><tspan dx="10" fill="#2d3748">предложение клиенту</tspan></text>
+<rect x="48" y="206" width="294" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="62" y="231" font-size="13.5"><tspan font-weight="700" fill="#2b6cb0">FWO</tspan><tspan dx="10" fill="#2d3748">заказ клиента экспедитору</tspan></text>
+<rect x="48" y="254" width="294" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="62" y="279" font-size="13.5"><tspan font-weight="700" fill="#2b6cb0">OTR</tspan><tspan dx="10" fill="#2d3748">из заказа SD или MM</tspan></text>
+<rect x="48" y="302" width="294" height="40" rx="8" fill="#ffffff" stroke="#2b6cb0" stroke-width="1.2"/>
+<text x="62" y="327" font-size="13.5"><tspan font-weight="700" fill="#2b6cb0">DTR</tspan><tspan dx="10" fill="#2d3748">из поставки</tspan></text>
+<text x="48" y="372" font-size="12" fill="#2b6cb0" font-weight="normal" text-anchor="start" font-style="italic">Различаются категорией и типом TRQ</text>
+<rect x="430" y="90" width="400" height="300" rx="12" fill="#fff3e6" stroke="#c05621" stroke-width="1.5"/>
+<text x="448" y="120" font-size="17" fill="#c05621" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/TOR</text>
+<text x="448" y="142" font-size="13" fill="#4a5568" font-weight="normal" text-anchor="start" font-style="italic">Исполнение: как везти</text>
+<rect x="448" y="158" width="178" height="40" rx="8" fill="#ffffff" stroke="#c05621" stroke-width="1.2"/>
+<text x="462" y="183" font-size="13.5"><tspan font-weight="700" fill="#c05621">FU</tspan><tspan dx="10" fill="#2d3748">единица фрахта</tspan></text>
+<rect x="634" y="158" width="178" height="40" rx="8" fill="#ffffff" stroke="#c05621" stroke-width="1.2"/>
+<text x="648" y="183" font-size="13.5"><tspan font-weight="700" fill="#c05621">FO</tspan><tspan dx="10" fill="#2d3748">фрахтовый заказ</tspan></text>
+<rect x="448" y="206" width="178" height="40" rx="8" fill="#ffffff" stroke="#c05621" stroke-width="1.2"/>
+<text x="462" y="231" font-size="13.5"><tspan font-weight="700" fill="#c05621">FB</tspan><tspan dx="10" fill="#2d3748">бронирование</tspan></text>
+<rect x="634" y="206" width="178" height="40" rx="8" fill="#ffffff" stroke="#c05621" stroke-width="1.2"/>
+<text x="648" y="231" font-size="13.5"><tspan font-weight="700" fill="#c05621">TU</tspan><tspan dx="10" fill="#2d3748">трейлер, вагон</tspan></text>
+<rect x="448" y="262" width="364" height="82" rx="8" fill="#ffffff" stroke="#a0aec0" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="462" y="284" font-size="12.5" fill="#1a202c" font-weight="700" text-anchor="start">Одна модель, общие узлы:</text>
+<text x="462" y="304" font-size="12" fill="#2d3748" font-weight="normal" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">ROOT · ITEM_TR · STOP · EXECUTION</text>
+<text x="462" y="324" font-size="12" fill="#2d3748" font-weight="normal" text-anchor="start">+ стоимость (делегированный узел)</text>
+<text x="448" y="372" font-size="12" fill="#c05621" font-weight="700" text-anchor="start" font-style="italic">Различаются полями TOR_CAT и TOR_TYPE</text>
+<rect x="900" y="90" width="270" height="300" rx="12" fill="#fdecec" stroke="#c53030" stroke-width="1.5"/>
+<text x="918" y="120" font-size="17" fill="#c53030" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">Расчёты</text>
+<text x="918" y="142" font-size="13" fill="#4a5568" font-weight="normal" text-anchor="start" font-style="italic">Деньги</text>
+<rect x="918" y="158" width="234" height="64" rx="8" fill="#ffffff" stroke="#c53030" stroke-width="1.2"/>
+<text x="932" y="182" font-size="13" fill="#c53030" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/SFIR</text>
+<text x="932" y="204" font-size="12.5" fill="#2d3748" font-weight="normal" text-anchor="start">FSD: перевозчику, → MM</text>
+<rect x="918" y="236" width="234" height="64" rx="8" fill="#ffffff" stroke="#c53030" stroke-width="1.2"/>
+<text x="932" y="260" font-size="13" fill="#c53030" font-weight="700" text-anchor="start" font-family="SFMono-Regular, Consolas, Menlo, monospace">/SCMTMS/CFIR</text>
+<text x="932" y="282" font-size="12.5" fill="#2d3748" font-weight="normal" text-anchor="start">FWSD: клиенту, → SD</text>
+<line x1="362" y1="200" x2="426" y2="200" stroke="#4a5568" stroke-width="2" marker-end="url(#arr)"/>
+<text x="394" y="190" font-size="11.5" fill="#4a5568" font-weight="700" text-anchor="middle">FUBR</text>
+<line x1="832" y1="190" x2="896" y2="190" stroke="#4a5568" stroke-width="2" marker-end="url(#arr)"/>
+<text x="864" y="180" font-size="11.5" fill="#4a5568" font-weight="700" text-anchor="middle">FO, FB</text>
+<path d="M195,392 L195,440 L1035,440 L1035,398" fill="none" stroke="#4a5568" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="520" y="428" width="260" height="24" rx="6" fill="#ffffff" stroke="none" stroke-width="1.5"/>
+<text x="650" y="445" font-size="12" fill="#4a5568" font-weight="700" text-anchor="middle">FWO → FWSD: счёт клиенту экспедитора</text>
+</g>
+</svg>
